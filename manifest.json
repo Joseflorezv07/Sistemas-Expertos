@@ -1,0 +1,20 @@
+
+{
+  "name": "#PWA",
+  "short_name": "#PWA",
+  "description": "Destino de viajes",
+  "background_color": "#2B2B2B",
+  "theme_color": "#F0DB4F",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "./images/1024px-Gnome-system-software-installer.svg.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+]
+}

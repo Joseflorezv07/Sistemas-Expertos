@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css dist/index.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <!-- endbuild -->
+
+    <title>Primer Esquema</title>
+  </head>
+  <body> 
+    <nav class="navbar  navbar-expand-md navbar-dark bg-dark fixed-top"> 
+      <a class="navbar-brand" href="#">Turismo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
+          <li class="nav-item active"><a class="nav-link" href="#">Precios</a></li>
+          <li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Planear Viaje</a></li>
+        </ul>
+       </div>
+       
+      </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Turismo Colombia</h1>
+        
+    </div>
+    </div>
+    <div class="container-fluid">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="./index.html">Inicio</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Precios</li>
+        </ol>
+       </nav>
+
+      <ul class="nav nav-tabs" id="myTab" role="tablist" >
+        <li class="nav-item">
+          <a class="nav-link active" id="compara-Tab" data-toggle="tab"
+          href="#compara" role="tab" aria-controls="compara" aria-selected="true"
+          >Compara</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pago-Tab" data-toggle="tab"
+          href="#pago" role="tab" aria-controls="pago" aria-selected="true"
+          >Planes y Tarjetas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " id="Comentarios-Tab" data-toggle="tab"
+          href="#comentario" role="tab" aria-controls="comentario" aria-selected="true"
+          >Comentarios</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="mytabContent">
+        <div class="tab-pane fade show active" id="compara" role="tabpanel" aria-labelledby="compara-Tab">
+
+       <div class="table-responsive">
+       <table class="table table-striped">
+         <thead class="thead-dark">
+           <th>Calidad</th>
+           <th>Bogota D.C</th>
+           <th>Medellin</th>
+           <th>Santa Marta</th>
+           <th>Cali</th>
+           <th>Cartagena</th>
+          
+         </thead>
+         <tbody>
+           <tr>
+             <td>Bronce</td>
+             <td>500000 COP</td>
+             <td>600000 COP</td>
+             <td>550000 COP</td>
+             <td>725000 COP</td>
+             <td>755000 COP</td>
+           </tr>
+           <tr>
+            <td>Plata</td>
+            <td>800000 COP</td>
+            <td>900000 COP</td>
+            <td>950000 COP</td>
+            <td>825000 COP</td>
+            <td>945000 COP</td>
+          </tr>
+          <tr>
+            <td>Oro</td>
+            <td>1200000 COP</td>
+            <td>1600000 COP</td>
+            <td>1550000 COP</td>
+            <td>1725000 COP</td>
+            <td>1825000 COP</td>
+          </tr>
+          <tr>
+            <td>Diamante</td>
+            <td>2500000 COP</td>
+            <td>2600000 COP</td>
+            <td>3550000 COP</td>
+            <td>3725000 COP</td>
+            <td>3825000 COP</td>
+          </tr>
+          <tr>
+            <td>Premium</td>
+            <td>5500000 COP</td>
+            <td>4600000 COP</td>
+            <td>6550000 COP</td>
+            <td>4725000 COP</td>
+            <td>7725000 COP</td>
+          </tr>
+          <tr>
+            <td>VIP</td>
+            <td>12500000 COP</td>
+            <td>12600000 COP</td>
+            <td>13550000 COP</td>
+            <td>13725000 COP</td>
+            <td>17250000 COP</td>
+          </tr>
+         </tbody>
+
+       </table>
+      </div>
+      
+    </div> 
+    <div class="tab-pane fade" id="pago" role="tabpanel" aria-labelledby="pago-Tab">
+      <div class="accordion" id="accordionTarjetas">
+         <div class="card">
+           <div class="card-header" id="headingone">
+             <h5 class="mb-0">
+               <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseBasica" aria-expanded="true" aria-controls="collapseBasica">Tarjeta Basica</button>
+                 </h5>
+                </div>
+                <div id="collapseBasica" class="collapse" aria-labelledby="headingone" data-parent="#accordionTarjetas">
+                  <div class="card-body">
+                    Incluye Hospedaje durante 8 dias y 7 noches en un hotel 2 estrellas.
+                  </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingtwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapsePremium" aria-expanded="true" aria-controls="collapsePremium">Tarjeta Premium</button>
+                        </h5>
+                       </div>
+                       <div id="collapsePremium" class="collapse" aria-labelledby="headingtwo" data-parent="#accordionTarjetas">
+                         <div class="card-body">
+                           Incluye Hospedaje durante 15 dias y 14 noches en un hotel 3 estrellas.
+                         </div>
+                         </div>
+                       </div>
+                       <div class="card">
+                        <div class="card-header" id="headingthree">
+                          <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseVIP" aria-expanded="true" aria-controls="collapseVIP">Tarjeta VIP</button>
+                              </h5>
+                             </div>
+                             <div id="collapseVIP" class="collapse" aria-labelledby="headingthree" data-parent="#accordionTarjetas">
+                               <div class="card-body">
+                                 Incluye Hospedaje durante 29 dias y 28 noches en un hotel 5 estrellas.
+                               </div>
+                               </div>
+                             </div>
+              </div>
+          </div> 
+ <div class="tab-pane fade" id="comentario" role="tabpanel" aria-labelledby="Comentarios-Tab">Comentarios</div>
+      </div>
+    <br>
+
+    
+ 
+    
+   <footer>
+  
+     <div class="row"  style="background-color: rgb(136, 152, 163);">
+       
+ 
+    <div class="col-sm-4 d-flex flex-column">
+      <a href="http:www.instagram.com">Instagram</a>
+      <a href="http:www.twitter.com">Twitter</a>
+    </div>
+    <div class="col-sm-4 d-flex flex-column">
+     <address>
+       <h3>Oficina</h3>
+       <p><span class="oi oi-home footer-address-icon"></span>Bogota,Colombia</p>
+       <p><span class="oi oi-phone footer-address-icon"></span>+57 3107632062</p>
+       <p><span class="oi oi-inbox footer-address-icon"></span>contact@turismocolombia.com</p>
+     </address>
+    </div>
+    <div class="col-sm-4 d-flex flex-column align-items-end">
+      <a href="http:www.instagram.com">Sobre Nosotros</a>
+      <a href="http:www.twitter.com">Lineas de Atencion</a>
+      <a href="http:www.twitter.com">Terminos y Condiciones</a>
+    </div>
+  </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <!-- build:js js/main.js -->
+    <script src="node_modules/jQuery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>src="js/index.js"</script>
+     <!-- endbuild -->
+  </body>
+
+
+  </html>

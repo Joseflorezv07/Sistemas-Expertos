@@ -1,0 +1,33 @@
+.jumbotron { 
+background-color: rgb(136, 152, 163);
+color:black;
+
+}
+.btn{
+background-color: grey;
+color:black;
+width: 100%;
+
+}
+.card-ciudad {
+flex: 1 150px;
+padding: 2px 5px 2px 5px;
+
+
+}
+.footer { 
+padding: 10px 10px 0 10px;
+background-color: rgb(136, 152, 163);
+margin-bottom: 0px
+
+}
+
+.btn-visitar {
+    width: 100%;
+    border-radius: 0px;
+    
+}
+.footer-address-icon{
+
+    padding-right: 10px;
+}
